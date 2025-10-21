@@ -1,0 +1,38 @@
+#one{
+    color:orange;
+    background-color:black;
+}
+#two{
+    color:black;
+    background-color:orange;
+}
+
+.bold{
+    font-weight: bold;
+    _background-color:orange;
+}
+
+#HaHaFirst{
+    text-decoration: underline;
+    background-color: orange;
+}
+
+p.coolColor{
+    background-color: orange;
+}
+
+.product-card p{
+
+}
+
+div{
+background-color: black;
+}
+
+div + p{
+
+}
+
+.kindaLorem{
+    background-color: orange;
+}

@@ -1,0 +1,16 @@
+main, header{
+    border: solid #740001 4px;
+    background-color: #DCC066;
+    color: #740001;
+    max-width: 1200px;
+    margin: auto;
+    font-family: "Roboto Slab", serif;
+    padding: 50px;
+}
+
+main{
+    margin-top: 10px;
+}
+img{
+    width: 300px;
+}

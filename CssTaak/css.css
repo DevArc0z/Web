@@ -1,0 +1,86 @@
+/**{
+    background-color: black;
+}
+.highlighted{
+    background-color: orange;
+}
+.important{
+    font-weight: bold;
+    color: black;
+}
+p.important{
+color: red;
+}*/
+
+/*
+div > p {
+    color: green;
+}
+
+ul li {
+    color: orange;
+}
+
+ul.menu li {
+    color: purple;
+}
+
+img[alt="maki"] {
+
+}
+
+a:link {
+    color: orange;
+}
+
+a:hover {
+    background-color: black
+}
+
+a:active {
+    background-color: black;
+    color: white;
+}
+
+a:visited {
+    color: orange;
+    background-color: red;
+}*/
+
+/*
+a[href^="https://"]
+{
+    border: 2px solid green;
+}
+a[href$=".com"]{
+    border:2px blue solid;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: pink;
+}
+a:hover{
+    color:darkorange;
+}
+ul li:first-child{
+    font-weight: bold;
+}
+ul li:last-child{font-family: cursive;}
+li:nth-child(odd){
+    color: green;
+}
+li:nth-child(even){
+    color: blue;
+}*/
+html{
+    font-size:18px;
+}
+
+div{
+    font-size: 15px;
+}
+p{
+    font-size: 2rem;
+}

@@ -1,0 +1,12 @@
+body{
+    background-color: #d9ddd7;
+    font-family: Verdana, sans-serif;
+}
+h1{
+    color: #005000;
+}
+p{
+    background-color: #6a7689;
+    color: #ffffff;
+    padding: 20px;
+}

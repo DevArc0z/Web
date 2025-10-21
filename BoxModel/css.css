@@ -1,0 +1,17 @@
+.boxmodel {
+    display: flex;
+}
+
+p.border {
+    display: flex;
+    border: 5px solid green;
+    padding: 8px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    background: linear-gradient(90deg, black, yellow, red);
+}
+body{
+    background: radial-gradient(circle, red, black);
+}
