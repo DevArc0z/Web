@@ -54,7 +54,7 @@ tr:nth-child(even) td:nth-child(even) {
     background-image: url("/Tabellen/assets/witte-marmer.jpg");
 }
 table, td{
-    border: 2px solid red;
+    border: 2px solid darkred;
     border-collapse: collapse;
 }
 table{
@@ -62,4 +62,17 @@ table{
 }
 td{
     text-align: center;
+}
+section{
+    display: inline-block;
+    border: 2px solid darkred;
+    background-image: url("/Tabellen/assets/witte-marmer.jpg") ;
+    float: right;
+    width: 200px;
+    margin-left: 50px;
+    padding : 20px;
+    height: 300px;
+}
+div{
+    display: inline-block;
 }
