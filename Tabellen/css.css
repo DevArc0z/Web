@@ -76,3 +76,6 @@ section{
 div{
     display: inline-block;
 }
+body{
+    background-image: url("/Tabellen/assets/hout.jpg");
+}
