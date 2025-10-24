@@ -1,0 +1,65 @@
+/*
+table, td, tr, th{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+caption{
+    caption-side: bottom;
+}*/
+
+/**{
+    color: white;
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: Roboto;
+}
+td{
+    width: 110px;
+    text-align: center;
+}
+thead{
+    background-color: #27426d;
+}
+body{
+    background-color: #c7ced8;
+}
+tbody{
+    tr:nth-child(even){
+        background-color: #4f8cef;
+    }
+    tr:nth-child(odd){
+        background-color: #6facff;
+    }
+}
+tfoot{
+    background-color: #27426d;
+}*/
+
+td{
+    width: 50px;
+    height: 50px;
+}
+tr:nth-child(odd) td:nth-child(odd) {
+    background-image: url("/Tabellen/assets/witte-marmer.jpg");
+}
+tr:nth-child(odd) td:nth-child(even) {
+    background-image: url("/Tabellen/assets/zwarte-marmer.jpg");
+}
+tr:nth-child(even) td:nth-child(odd) {
+    background-image: url("/Tabellen/assets/zwarte-marmer.jpg");
+}
+tr:nth-child(even) td:nth-child(even) {
+    background-image: url("/Tabellen/assets/witte-marmer.jpg");
+}
+table, td{
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+table{
+    display: inline-block;
+}
+td{
+    text-align: center;
+}
