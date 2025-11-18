@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: black;
+    position: relative;
+    display : flex;
+    flex-direction: row-reverse;
+}
+.container>img{
+    height: 25px;
+    margin: 10px;
+}
+nav{
+width: 100%;
+}
+.left>ul{
+    width: 33%;
+    display: inline-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left>ul>li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+li>img{
+    width: 60px;
+}
+
+.banner>img{
+    display: flex;
+}
