@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 980px;
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    background-image: url("./assets/bgimage.png");
+}
+header {
+    width: 100%;
+    background-color: #283e4a;
+    height: 50px;
+    align-content: center;
+}
+h3{
+    color: white;
+    margin-left: 25px;
+}
+nav{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 170px;
+    margin-top: 20px;
+}
+nav a{
+    padding: 10px;
+}
+
+article, p, hr{
+    display: flex;
+    background-color: white;
+    width: 70%;
+}
