@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-header {
+    background-color: black;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nav-header-logo {
+        height: 40%;
+        margin-right: 10px;
+    }
+
+}
+
+.main-nav {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+
+    .main-nav-left {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        gap: 10px;
+
+        .main-nav-logo-link{
+            height: 60%;
+
+            .main-nav-logo {
+                height: 100%;
+            }
+        }
+
+
+        ul {
+            display: flex;
+            gap: 5%;
+            list-style-type: none;
+
+            .nav-link {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .main-nav-right{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .sign-in-link{
+            background-color: #1c1919;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            padding: 3px 12px;
+        }
+
+        .search-icon{
+            margin-right: 10px;
+        }
+    }
+}
+
+.hero-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 73vh;
+    background-image: url("./assets/deel-1/hero-banner.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    gap: 5vh;
+    padding: 6vh;
+
+    p{
+        max-width: 45%;
+        text-align: center;
+    }
+
+    .shopping-link{
+        text-decoration: none;
+        background-color: orangered;
+        color: white;
+        border-radius: 25px;
+        padding: 6px 16px;
+    }
+}
+
