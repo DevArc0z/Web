@@ -4,6 +4,28 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'SST', sans-serif;
+}
+
+.ps-h1,
+.ps-h2 {
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+
+.ps-subtitle {
+    color: grey;
+}
+
+.ps-btn-primary {
+    text-decoration: none;
+    background-color: #0070CCFF;
+    color: white;
+    border-radius: 25px;
+    padding: 6px 16px;
+}
+
 .nav-header {
     background-color: black;
     height: 4vh;
@@ -30,7 +52,7 @@
         margin-left: 10px;
         gap: 10px;
 
-        .main-nav-logo-link{
+        .main-nav-logo-link {
             height: 60%;
 
             .main-nav-logo {
@@ -51,12 +73,12 @@
         }
     }
 
-    .main-nav-right{
+    .main-nav-right {
         display: flex;
         align-items: center;
         gap: 10px;
 
-        .sign-in-link{
+        .sign-in-link {
             background-color: #1c1919;
             color: white;
             text-decoration: none;
@@ -64,13 +86,13 @@
             padding: 3px 12px;
         }
 
-        .search-icon{
+        .search-icon {
             margin-right: 10px;
         }
     }
 }
 
-.hero-banner{
+.hero-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,17 +104,84 @@
     gap: 5vh;
     padding: 6vh;
 
-    p{
+    p {
         max-width: 45%;
         text-align: center;
     }
 
-    .shopping-link{
-        text-decoration: none;
+    .shopping-link {
         background-color: orangered;
-        color: white;
-        border-radius: 25px;
-        padding: 6px 16px;
     }
 }
 
+.introduction {
+    padding: 2rem 5rem;
+
+    .introduction-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .play {
+            color: deepskyblue;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+    }
+
+    .introduction-middle {
+        display: flex;
+
+        .introduction-middle-left {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 1rem;
+
+            h2{
+                margin-bottom: 0;
+            }
+        }
+
+        img{
+            width: 45%;
+            margin-left: 7%;
+        }
+    }
+    .introduction-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        a{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: gray;
+            img{
+                width: auto;
+                height: 140px;
+            }
+
+            p{
+
+            }
+        }
+
+    }
+}
+.shop-Part{
+    background-image: url("./assets/deel-3/horizon-banner.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    gap: 5vh;
+    padding: 6vh;
+}
