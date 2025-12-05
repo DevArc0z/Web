@@ -105,7 +105,7 @@ body {
     padding: 6vh;
 
     p {
-        max-width: 45%;
+        max-width: 65vh;
         text-align: center;
     }
 
@@ -174,14 +174,61 @@ body {
     }
 }
 .shop-Part{
-    background-image: url("./assets/deel-3/horizon-banner.png");
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    color: white;
-    gap: 5vh;
-    padding: 6vh;
+    .Horizon{
+        background-image: url("./assets/deel-3/horizon-banner.png");
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        color: white;
+        gap: 5vh;
+        padding: 6vh;
+        p{
+            max-width: 50vh;
+        }
+        .HorizonPreOrder{
+            background-color: orangered;
+            color: white;
+            text-decoration: none;
+            padding: 5px 12px;
+            border-radius: 15px;
+        }
+
+    }
+    .ShopFeed{
+        background-color: black;
+        color: white;
+        .ShopFeed-center{
+            width: 85%;
+            display: flex;
+            flex-direction: column;
+            margin:auto;
+
+        }
+        .ShopFeed-ShopList{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 85%;
+            margin:auto;
+            gap: 2rem;
+            .ShopFeed-images{
+                display: flex;
+                flex-direction: column;
+                img{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 10px;
+                }
+                p{
+                    width: 150px;
+                }
+            }
+        }
+
+     }
 }
+
