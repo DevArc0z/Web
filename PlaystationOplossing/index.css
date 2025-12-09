@@ -200,8 +200,11 @@ body {
     .ShopFeed{
         background-color: black;
         color: white;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
         .ShopFeed-center{
             width: 85%;
+            gap: 1rem;
             display: flex;
             flex-direction: column;
             margin:auto;
@@ -231,3 +234,60 @@ body {
      }
 }
 
+.Exploration{
+    .Part4-Tools{
+        .Part4-Top{
+            display: flex;
+            margin-top: 5rem;
+            flex-direction: column;
+            align-items: center;
+        }
+        .Part4-Items{
+            display: flex;
+            padding: 6rem;
+            .Part4-Content{
+                display: flex;
+                gap: 1rem;
+                justify-content: center;
+                flex-direction: column;
+                align-items: start;
+                a{
+                    align-self: start;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .Part4-PSPlus{
+        background-image: url("./assets/deel-4/ps-plus-background-art.jfif");
+        background-size: cover;
+        display: flex;
+        flex-direction: row-reverse;
+        .MonthlyGames{
+            width: 50%;
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            padding-left: 6rem;
+            gap: 2rem;
+            .PSPlusLogo{
+                width: 60%;
+            }
+            .psPlus{
+                background-color: white;
+                color: deepskyblue;
+                text-decoration: none;
+                border-radius: 25px;
+                padding: 6px 16px;
+            }
+        }
+
+    }
+}
