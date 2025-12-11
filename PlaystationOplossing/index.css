@@ -290,4 +290,24 @@ body {
         }
 
     }
+    .StoreSavings{
+        .StoreSavings-top{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 3rem;
+        }
+        .storeImages{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            img{
+                width: 25%;
+                border-radius: 20px;
+                margin-bottom: 2rem;
+            }
+        }
+    }
 }
