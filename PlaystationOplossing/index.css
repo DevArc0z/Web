@@ -304,7 +304,7 @@ body {
             justify-content: center;
             gap: 1rem;
             img{
-                width: 25%;
+                width: 30   vh;
                 border-radius: 20px;
                 margin-bottom: 2rem;
             }
