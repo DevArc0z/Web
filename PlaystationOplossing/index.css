@@ -457,7 +457,6 @@ body {
         justify-content: space-between;
         padding-top: 5rem;
         flex-direction: column;
-        max-width: 200vh;
         .row{
 
             display: flex;
